@@ -1,0 +1,141 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 1220px;
+  margin: 0 auto;
+}
+
+.navbar-h1{
+  color: black !important;
+}
+.navbar_link{
+  margin: 0 15px;
+  height: 100%;
+  text-decoration: none;
+  color: black;
+  display: flex;
+  text-align: center;
+}
+.MuiToolbar-root {
+  display: flex;
+  justify-content: space-between !important;
+}
+.page-1{
+  display: flex;
+  justify-content: space-between;
+  height: 520px;
+  margin-top: 28px;
+  background: #DCE5E2;
+  border-radius: 12px;
+}
+.text{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 50px;
+}
+.page-image {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 35px;
+}
+.h1-text{
+  font-size: 28px;
+}
+.p-text{
+  padding-top: 19px;
+  font-size: 16px;
+}
+.text button{
+  margin-top: 30px;
+  width: 170px;
+  height: 50px;
+  border-radius: 50px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.page-2{
+  margin-top: 75px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.h2-text{
+  display: flex;
+  font-size: 20px;
+}
+.p2-text{
+  display: flex;
+  margin-top: 10px;
+  font-size: 14px;
+}
+.image-filter{
+  display: flex;
+  justify-content: space-between;
+  height: 792px;
+  margin-top: 56px;
+
+}
+
+.image-filter-left {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+}
+.image-filter-right {
+  width: 45%;
+  display: flex;
+  column-gap: 20px;
+}
+.image-icon1{
+  width: 638px;
+  display: flex;
+  flex-direction: column;
+  object-fit: contain;
+  width: 100%;
+  box-shadow: 1px 2px 20px grey;
+  cursor: pointer;
+}
+.image-icon2{
+  margin-top: 72px;
+  display: flex;
+  align-items: center;
+  object-fit: contain;
+  height: 250px;
+  height: 100%;
+  box-shadow: 1px 2px 20px grey;
+  cursor: pointer;
+}
+.image-icon3{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  object-fit: contain;
+  box-shadow: 1px 2px 20px grey;
+  cursor: pointer;
+}
+.image-icon4{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  object-fit: contain;
+  box-shadow: 1px 2px 20px grey;
+  cursor: pointer;
+}
+.image-text1{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.image-text2{
+  display: flex;
+  flex-direction: column;
+}
